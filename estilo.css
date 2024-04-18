@@ -3,8 +3,17 @@
     --cor-texto-secundario:#c0c0c0;
     --botao-princpal:#167bf7;
     --botao-secundario:#00030c;
+
+
+
 }
 
+body{
+
+ background-color: black;
+color: var(--cor-texto-principal);
+
+}
 
 
 *{
@@ -13,16 +22,24 @@ padding:0 ;
 }
 
 .principal[
+    .principal[
+    background-color:#00030c;
     background-image: url('./img/background.png') ;
     background-repeat : no-repeat ;
     background-site:contain;
 ]
 
 .contain{
-    height:100vh;
+
+    height:100vh; ;
+
 }
 
+.container--botao
 
-
-
+background-color: var(--botao-principal);
+color:var(--cor-texto-principal) ;
+padding: 1em;
+border-radius; 5px;
+text-decoration: none;
 }
